@@ -12,4 +12,11 @@ export class ArticleComponent implements OnInit {
   ngOnInit() {
   }
 
+  voteUp() {
+    console.log('Upvote');
+  }
+
+  voteDown() {
+    console.log('Downvote');
+  }
 }
